@@ -24,3 +24,4 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 ## Additional Information
 + Information about the data itself is found in the CodeBook.md
++ Step by step code descriptions are provided in the codeBook.md file in order to reproduce the results obtained in the script.
