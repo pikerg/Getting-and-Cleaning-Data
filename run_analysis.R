@@ -7,6 +7,9 @@
 ## 4. Appropriately labels the data set with descriptive activity names.
 ## 5. Creates a second, independent tidy data set with the average of each variable for each
 ##    activity and each subject.
+##
+## A detailed description of the code steps is provided in the CodeBook.md located in this
+## repository
 
 ####################################################################################################
 ## Read all of the required data
