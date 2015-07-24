@@ -62,6 +62,8 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
+*The above information was copied from the README.txt file included in the data download. Additional information about the use of this data within the scope of the project are located in the "Project Process Steps" section below.*
+
 ##Detailed information about the Data set used in this assignment can be found at this web address
 
 ##Project Process Steps
@@ -128,7 +130,7 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 	~~~~~~~
 	meanSubSet <- cbind(meanSubSet, completeData[,grep("mean\\(\\)|std\\(\\)", names(completeData))])
 	~~~~~~~
-	+ The colMeans() function was then applied to the meanSubSet to produce the required tidyData table.
+	+ The colMeans() function was then applied to the meanSubSet to produce the required tidyData table. This creates the second, independent tidy data set with the average of each variable for each activity and each subject.
 	~~~~~~~
 	tidyData <- ddply(meanSubSet, .(subject, activity), function(x) colMeans(x[, 3:68]))
 	~~~~~~~
