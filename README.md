@@ -2,7 +2,7 @@
 Course project for the Johns Hopkins Coursera course Getting and Cleaning Data
 
 ##  Overview
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. This repository contains 1) a tidy data set "averages_data.txt" as required by the assignment that includes the average of each variable for each activity and each subject 2) a code book "CodeBook.MD" that describes the variables, the data, and any transformations or work that you performed to clean up the data 3) and this README.md describing the requirements for the run_analysis.R script to run.
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. This repository contains 1) a tidy data set "averages_data.txt" as required by the assignment that includes the average of each variable for each activity and each subject 2) a code book "CodeBook.MD" that describes the variables, the data, and any transformations or work that you performed to clean up the data 3) and this README.md describing the requirements for the run_analysis.R script to run. The desired goal is to create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ***
 
